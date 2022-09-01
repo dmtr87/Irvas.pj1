@@ -14879,7 +14879,7 @@ __webpack_require__.r(__webpack_exports__);
 window.addEventListener('DOMContentLoaded', function () {
   Object(_modules_modals__WEBPACK_IMPORTED_MODULE_1__["default"])();
 });
-console.log(2);
+console.log(2324);
 
 /***/ }),
 
