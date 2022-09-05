@@ -14879,7 +14879,6 @@ __webpack_require__.r(__webpack_exports__);
 window.addEventListener('DOMContentLoaded', function () {
   Object(_modules_modals__WEBPACK_IMPORTED_MODULE_1__["default"])();
 });
-console.log(2324);
 
 /***/ }),
 
@@ -14930,9 +14929,9 @@ var modal = function modal() {
       document.querySelector(selector).style.display = 'block';
       document.body.style.overflow = "";
     }, time);
-  }
+  } // showModal('.popup', 60000)
 
-  showModal('.popup', 60000);
+
   bindModal('.popup_engineer_btn', '.popup_engineer', '.popup_engineer .popup_close');
   bindModal('.phone_link', '.popup', '.popup .popup_close');
 };

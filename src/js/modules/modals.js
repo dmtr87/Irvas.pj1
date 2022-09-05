@@ -33,7 +33,7 @@ const modal = () => {
             document.body.style.overflow = ""; 
         }, time)
     }
-    showModal('.popup', 60000)
+    // showModal('.popup', 60000)
     bindModal('.popup_engineer_btn', '.popup_engineer', '.popup_engineer .popup_close');
     bindModal('.phone_link', '.popup', '.popup .popup_close');
 
