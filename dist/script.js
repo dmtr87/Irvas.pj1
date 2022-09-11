@@ -15494,14 +15494,31 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _slider__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./slider */ "./src/js/slider.js");
 /* harmony import */ var _modules_modals__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/modals */ "./src/js/modules/modals.js");
 /* harmony import */ var _modules_tabs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/tabs */ "./src/js/modules/tabs.js");
+/* harmony import */ var _modules_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/forms */ "./src/js/modules/forms.js");
+/* harmony import */ var _modules_forms__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_modules_forms__WEBPACK_IMPORTED_MODULE_3__);
+
 
 
 
 window.addEventListener('DOMContentLoaded', function () {
+  "use strict";
+
   Object(_modules_modals__WEBPACK_IMPORTED_MODULE_1__["default"])();
   Object(_modules_tabs__WEBPACK_IMPORTED_MODULE_2__["default"])('.glazing_slider', '.glazing_block', '.glazing_content', 'active');
   Object(_modules_tabs__WEBPACK_IMPORTED_MODULE_2__["default"])('.decoration_slider', '.no_click', '.decoration_content > div > div', 'after_click');
+  _modules_forms__WEBPACK_IMPORTED_MODULE_3___default()();
 });
+
+/***/ }),
+
+/***/ "./src/js/modules/forms.js":
+/*!*********************************!*\
+  !*** ./src/js/modules/forms.js ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: E:\\My_Project\\Source\\src\\js\\modules\\forms.js: Invalid left-hand side in assignment expression (12:8)\n\n\u001b[0m \u001b[90m 10 | \u001b[39m    \u001b[0m\n\u001b[0m \u001b[90m 11 | \u001b[39m    \u001b[36mconst\u001b[39m postData \u001b[33m=\u001b[39m async (url\u001b[33m,\u001b[39m data)\u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 12 | \u001b[39m        document\u001b[33m.\u001b[39mquerySelector(\u001b[32m'.status'\u001b[39m) \u001b[33m=\u001b[39m message\u001b[33m.\u001b[39mloading\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    | \u001b[39m        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 13 | \u001b[39m         let result \u001b[33m=\u001b[39m await fetch(url\u001b[33m,\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 14 | \u001b[39m            method\u001b[33m:\u001b[39m \u001b[32m'POST'\u001b[39m\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 15 | \u001b[39m            body\u001b[33m:\u001b[39m data\u001b[0m\n    at Parser.raise (E:\\My_Project\\Source\\node_modules\\@babel\\parser\\lib\\index.js:6975:17)\n    at Parser.checkLVal (E:\\My_Project\\Source\\node_modules\\@babel\\parser\\lib\\index.js:8855:16)\n    at Parser.parseMaybeAssign (E:\\My_Project\\Source\\node_modules\\@babel\\parser\\lib\\index.js:9001:12)\n    at Parser.parseExpression (E:\\My_Project\\Source\\node_modules\\@babel\\parser\\lib\\index.js:8925:23)\n    at Parser.parseStatementContent (E:\\My_Project\\Source\\node_modules\\@babel\\parser\\lib\\index.js:10785:23)\n    at Parser.parseStatement (E:\\My_Project\\Source\\node_modules\\@babel\\parser\\lib\\index.js:10656:17)\n    at Parser.parseBlockOrModuleBlockBody (E:\\My_Project\\Source\\node_modules\\@babel\\parser\\lib\\index.js:11232:25)\n    at Parser.parseBlockBody (E:\\My_Project\\Source\\node_modules\\@babel\\parser\\lib\\index.js:11219:10)\n    at Parser.parseBlock (E:\\My_Project\\Source\\node_modules\\@babel\\parser\\lib\\index.js:11203:10)\n    at Parser.parseFunctionBody (E:\\My_Project\\Source\\node_modules\\@babel\\parser\\lib\\index.js:10222:24)");
 
 /***/ }),
 
